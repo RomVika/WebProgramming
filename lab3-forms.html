@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Lab3-forms-home</title>
+      
+    </head>
+    <body>
+        <form>
+        <h1> Welcom to cafe "Drink of energy"! </h1>
+        <p> Make online order the best coffe in you life. </p>
+        <section>
+            <h2>Contact information</h2>
+            <div>
+                <label for="Name">
+                    <span> Customer Name: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </label>
+                <input type="text" id="name" name="name" required />
+            </div>
+            <div1>
+                <lable for="mail">
+                    <span>Email: </span>
+                    <strong><span aria-label="required">*</span></strong>
+                </lable>
+                <input type="email" id="mail" name="user-mail" required />
+            </div1>
+        </section>
+        <section>
+            <h2>Coffe information</h2>
+            <p>
+              
+                <h4>Coffe Type</h4>
+                <select id="CoffeType" name="CoffeType">
+                    <option value="latte">Latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="americano">Americano</option>
+                    <option value="espresso">Espresso</option>
+                </select>
+                <h4>Coffe size</h4>
+                <input type="radio" id="small" name="coffe" value="Small"/>
+                <label for="small">Small</label>
+                <input type="radio" id="medium" name="coffe" value="Medium"/>
+                <label for="medium">Medium</label>
+                <input type="radio" id="large" name="coffe" value="Large"/>
+                <label for="large">Large</label>
+                <h4>Extras</h4>
+                <input type="checkbox" id="WhippedCream" name="WhippedCream" value="WhippedCream" />
+                <label for="WhippedCream">Whipped Cream</label>
+                <input type="checkbox" id="ExstraShot" name="ExstraShot" value="ExstraShot" />
+                <label for="ExstraShot">Exstra Shot</label>
+                <input type="checkbox" id="AlmondMilk" name="AlmondMilk" value="AlmondMilk" />
+                <label for="AlmondMilk">Almond Milk</label>
+                <h4>Special Instruction</h4>
+                <textarea id="SpecialInstruction" name="SpecialInstruction"></textarea>
+                
+                <button type="submit">Submit</button>
+            </p>
+        </section>
+        </form>
+    </body>
+</html>
+    
